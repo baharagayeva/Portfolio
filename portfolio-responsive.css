@@ -1,0 +1,92 @@
+@media (max-width:576px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-main{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        padding-left: 10px!important;
+        padding-right: 10px !important;
+        padding-top: 40px !important;
+    }
+
+    .header-left-box{
+        width: 50% !important;
+    }
+
+    .header-right-box{
+        width: 50% !important;
+    }
+
+    #profilephoto{
+        width: 80px !important;
+    }
+
+    .personal-info{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .row{
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .link-areas{
+        width: 100% !important;
+    }
+
+    .section-wrapper.w-75{
+        width: 75% !important;
+        flex-direction: column;
+    }
+
+    .experience-area.w-75{
+        width: 100% !important;
+        flex-direction: column;
+    }
+
+    .experience-area-item-jobtitle.w-25{
+        width: 100% !important;
+        padding-bottom: 20px;
+    }
+
+    .experience-area-item-company.w-75{
+        width: 100% !important;
+        padding-bottom: 20px;
+    }
+
+    .skills-area.w-25{
+        width: 100% !important;
+    }
+
+    .progress-bars{
+        padding-top: 12px;
+    }
+
+    .hobbies-area.w-75{
+        width: 100% !important;
+    }
+
+    .hobbies{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hobbies-item{
+        width: 33.3%;
+    }
+
+    .language-area.w-25{
+        width: 100% !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .language-area.ms-4{
+        margin: 0 !important;
+    }
+}
